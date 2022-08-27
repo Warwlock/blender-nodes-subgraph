@@ -1,4 +1,4 @@
-# blender-nodes-subgraph
+# Blender Nodes Graph
 P.S.: Still in pre-release version. Full version will be available at Asset Store.  
 P.S. 2 : Still in beta (pre-release). So be careful. You can use on commerical projects but I'd be glad if you buy on Asset Store (Coming Soon).  
 
