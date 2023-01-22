@@ -1,0 +1,33 @@
+{
+	"name": "com.BlenderNodesGraph.core",
+	"displayName": "Blender Nodes Graph",
+	"version": "1.0",
+	"unity": "2020.3",
+	"author": "Warwlock",
+	"description": "Core Utilities for Blender Nodes Graph",
+	"documentationUrl": "https://github.com/Warwlock/blender-nodes-subgraph/wiki",
+	"licensesUrl": "https://example.com/licensing.html",
+	"dependencies": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Warwlock/blender-nodes-subgraph.git"
+	},
+	"samples": [
+        {
+            "displayName": "HDRP Samples",
+            "description": "Contains samples for the High Definition render pipeline",
+            "path": "Samples~/SamplesHDRP"
+        },
+        {
+            "displayName": "URP Samples",
+            "description": "Contains samples for the Universal render pipeline",
+            "path": "Samples~/SamplesURP"
+        },
+        {
+            "displayName": "BuiltIn Samples",
+            "description": "Contains samples for the Built In render pipeline",
+            "path": "Samples~/SamplesBuiltIn"
+        }
+    ]
+}

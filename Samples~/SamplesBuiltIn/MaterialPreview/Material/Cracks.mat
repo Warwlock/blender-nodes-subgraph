@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8436966474112442223
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cracks
+  m_Shader: {fileID: -6465566751694194690, guid: d6abddfeae7a87f4ea600fa533d1c827, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_0a3293ec3818b825f9d0bf40fdf6978a_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_3ca87e922022955f880d1e58702e5095_Gradient8082_13:
+        m_Texture: {fileID: 2800000, guid: 6e5c93235987c1c47be895fba108e207, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_41062e991da0c81e97f26a70b3091e3c_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_46852b128fa6058265906244d133ca7e_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_486c36f6dc0e77a394824c5c620b6bcf_Gradient8110_13:
+        m_Texture: {fileID: 2800000, guid: 5e49381dee1cac946bb7be3e0646856b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_4f2375da8dce9572beee61d54ad437e4_Gradient8082_13:
+        m_Texture: {fileID: 2800000, guid: 6e5c93235987c1c47be895fba108e207, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_50e51d352eacac364acb6629f8febee4_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_5e8675362f0cd816e9690719f62315ca_Gradient8110_13:
+        m_Texture: {fileID: 2800000, guid: 5e49381dee1cac946bb7be3e0646856b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_6e3a46ce627d17855c9760215f0fed03_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_74a888af0ec8d46b2ecbc28a0888e7b6_Gradient8084_13:
+        m_Texture: {fileID: 2800000, guid: eedeb536a76c91e478fe5c5c714ab359, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_771f04b9deb045fd0b29f0b77befe18e_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_94cf8db065b3f8367050c9c384f54be9_Gradient8082_13:
+        m_Texture: {fileID: 2800000, guid: 6e5c93235987c1c47be895fba108e207, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_aa8d2364877dd24d5961a8f267b4541e_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_adf0d9b490c28d2135e52fc386375a4e_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_f8d7396b5a06134ca11faa99c4e5aad5_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_fa4c2101414d7683c4cfb3f9ff7df788_Gradient8100_10:
+        m_Texture: {fileID: 2800000, guid: 10a1f1cec52d861439c5472a2a4b2557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CracksCustomFunction_ffef9af88dfa8f92540c4f8c840d556a_Gradient8084_13:
+        m_Texture: {fileID: 2800000, guid: eedeb536a76c91e478fe5c5c714ab359, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &319306532285481241
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

@@ -1,0 +1,551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2447314961300612252
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StoneBricks
+  m_Shader: {fileID: -6465566751694194690, guid: a67e2662310186144b8c34211c25f8df, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_0699fbbebdfc57200dceea0f2882bdb7_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_072c148d794bcfca2adb9a39823e597f_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_072c148d794bcfca2adb9a39823e597f_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_072c148d794bcfca2adb9a39823e597f_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_072c148d794bcfca2adb9a39823e597f_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_0955c430c11a9e1ac15620c536305480_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_0955c430c11a9e1ac15620c536305480_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_0955c430c11a9e1ac15620c536305480_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_0955c430c11a9e1ac15620c536305480_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_159f88bb2fb126cba4e17a27bf5cec3d_Gradient8242_13:
+        m_Texture: {fileID: 2800000, guid: 52ed230874c03e945bc4f534431bce95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_159f88bb2fb126cba4e17a27bf5cec3d_Gradient8244_14:
+        m_Texture: {fileID: 2800000, guid: 60029772cf68f6c4d90e8c30d3410e80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_16e5c4914a23b5f6c50748dfcbc1e571_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_181eb13ac992209ec2e778545042fc36_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_2a8055f54b7b0f706b62b6482e487918_Gradient8214_13:
+        m_Texture: {fileID: 2800000, guid: 0a0c31cd29d7b274cbb2bbc4e78577bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_2a8055f54b7b0f706b62b6482e487918_Gradient8216_14:
+        m_Texture: {fileID: 2800000, guid: 846f7795ce7ac734197a569bb34f2853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_2db502f2489c84450b4281f52e5332ea_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_329e9251d92cceff4e1b79d619b01e4d_Gradient8214_13:
+        m_Texture: {fileID: 2800000, guid: 0a0c31cd29d7b274cbb2bbc4e78577bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_329e9251d92cceff4e1b79d619b01e4d_Gradient8216_14:
+        m_Texture: {fileID: 2800000, guid: 846f7795ce7ac734197a569bb34f2853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_34ae0be5751ed20302cf92f6a2786edf_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_36638335e18543d3a54817db2dc06dae_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_36c211a96bd290a8b62c3f19ef2180a2_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_36c211a96bd290a8b62c3f19ef2180a2_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_3b0e7e35c28803952b5f3b9e3270906e_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_449effe461df6db88011cbc3534fa0ee_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_449effe461df6db88011cbc3534fa0ee_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_469e6d942c9d353a4fde62d57020e56e_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_469e6d942c9d353a4fde62d57020e56e_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_49a7d97f1b4c3ba811c170edc53d882f_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_4a191fcb168abbf9e19807972e82fda6_Gradient8214_13:
+        m_Texture: {fileID: 2800000, guid: 0a0c31cd29d7b274cbb2bbc4e78577bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_4a191fcb168abbf9e19807972e82fda6_Gradient8216_14:
+        m_Texture: {fileID: 2800000, guid: 846f7795ce7ac734197a569bb34f2853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_4be438d22f64c039e4ae4239666fed02_Gradient8244_13:
+        m_Texture: {fileID: 2800000, guid: 0a96bfe8aad9eda46bc510ab0b1c6864, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_4be438d22f64c039e4ae4239666fed02_Gradient8250_11:
+        m_Texture: {fileID: 2800000, guid: 158eb49624fb9ef409e1b72cbb798ea8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_4be438d22f64c039e4ae4239666fed02_Gradient8262_10:
+        m_Texture: {fileID: 2800000, guid: 1832ecc2f9ff75841a247711fe3cf700, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_4be438d22f64c039e4ae4239666fed02_Gradient8264_12:
+        m_Texture: {fileID: 2800000, guid: e3947a9ecb0b0924db2702dc739795a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_54abbf0d067397e67ff7b5f5bb84ceb3_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_63bd0f478fa5e51215573bf291382f1a_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_6b6f84ddc2559535f664119def56c030_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_6b6f84ddc2559535f664119def56c030_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_6e21e5d4232588857cea40845816c0ef_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_6e21e5d4232588857cea40845816c0ef_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_6e21e5d4232588857cea40845816c0ef_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_6e21e5d4232588857cea40845816c0ef_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_71cb95dd183a9c969f9d90f998b9321d_Gradient8216_13:
+        m_Texture: {fileID: 2800000, guid: 846f7795ce7ac734197a569bb34f2853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_71cb95dd183a9c969f9d90f998b9321d_Gradient8218_14:
+        m_Texture: {fileID: 2800000, guid: 2bbe0e445eb1b434faeab4fa887be933, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_77bd6192e77a4030a92f69f67c1a1fc6_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_77bd6192e77a4030a92f69f67c1a1fc6_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_79e60e29dddfdcab221b8bd673b266f5_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_79e60e29dddfdcab221b8bd673b266f5_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9180e77d16c95c308b04495be8712c99_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9180e77d16c95c308b04495be8712c99_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9185a6f2effc5c397f2d429835d2a8db_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9185a6f2effc5c397f2d429835d2a8db_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9185a6f2effc5c397f2d429835d2a8db_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9185a6f2effc5c397f2d429835d2a8db_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_93143d916f55149dc604253b4cfd35a3_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_93143d916f55149dc604253b4cfd35a3_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_93143d916f55149dc604253b4cfd35a3_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_93143d916f55149dc604253b4cfd35a3_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_935b8659dec3dc9df1a6205ad4c0b03c_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_973d36e6e3bb947161deee5152429b0e_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_973d36e6e3bb947161deee5152429b0e_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_973d36e6e3bb947161deee5152429b0e_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_973d36e6e3bb947161deee5152429b0e_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9d8ddaeaa8ff175d18e5c1ab4607c23c_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_9d8ddaeaa8ff175d18e5c1ab4607c23c_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_a4d9557186071078a33c417e29d23f68_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_a4e3bf85c51ad8a50d3551918c3c8fed_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_bd17eeebc31bb4f7444e96db352cb25c_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_bf051a9736dff0082abe04583d936174_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_bf051a9736dff0082abe04583d936174_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_bf051a9736dff0082abe04583d936174_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_bf051a9736dff0082abe04583d936174_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_c15a8e9f4045d68c02d029d45052924b_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_c15a8e9f4045d68c02d029d45052924b_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_c15a8e9f4045d68c02d029d45052924b_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_c15a8e9f4045d68c02d029d45052924b_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_cc5f26f922ee001e40f113bf66a44020_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_cc5f26f922ee001e40f113bf66a44020_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_ceae8065b3a64ca5c08914990c8b6c19_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_d374652d43633434a07a69bb7fefcb18_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_d374652d43633434a07a69bb7fefcb18_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_d534c48864ba13ea90e8e1294bcbf834_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_d7d18dcae58f63cacd8ee02dae7f9d5b_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_d7d18dcae58f63cacd8ee02dae7f9d5b_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_de0c01951969036ea3f648887b8e0f28_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_de0c01951969036ea3f648887b8e0f28_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_de0c01951969036ea3f648887b8e0f28_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_de0c01951969036ea3f648887b8e0f28_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_de8924fb2eeaad99b3c6140c93af5001_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_ea12fb635dd1212b415dc74a324aac6c_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_f172a38e42d0efd90530442375c4e2d7_Gradient8216_13:
+        m_Texture: {fileID: 2800000, guid: 846f7795ce7ac734197a569bb34f2853, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_f172a38e42d0efd90530442375c4e2d7_Gradient8218_14:
+        m_Texture: {fileID: 2800000, guid: 2bbe0e445eb1b434faeab4fa887be933, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_f29add473ff05d03db17dac989b1ae0d_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_f29add473ff05d03db17dac989b1ae0d_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_f471fda1a4b7d9741dc10e55ddc6d8b3_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_f4fcaafef9ad9874354654332c128f91_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fa54f22c352d78d2d3ba71b110be41aa_Gradient8274_10:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fb8e71c7bd95d3752b3857490ea8b0f6_Gradient165318_10:
+        m_Texture: {fileID: 2800000, guid: 18e8df754f78c244eadcde8918cb70f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fb8e71c7bd95d3752b3857490ea8b0f6_Gradient184538_11:
+        m_Texture: {fileID: 2800000, guid: 2fd03bf40909f6c458dcee7b20c11dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fc4ea9e0aea066dae933bc407a7b2ed1_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fc4ea9e0aea066dae933bc407a7b2ed1_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fc4ea9e0aea066dae933bc407a7b2ed1_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fc4ea9e0aea066dae933bc407a7b2ed1_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fe5337189dc456998730ad626bfad0e5_Gradient8274_13:
+        m_Texture: {fileID: 2800000, guid: 1d679a5f73b2a384999a877186fd5372, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fe5337189dc456998730ad626bfad0e5_Gradient8276_10:
+        m_Texture: {fileID: 2800000, guid: 2a6c010ce33c16e4399f60b87515d5f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fe5337189dc456998730ad626bfad0e5_Gradient8278_11:
+        m_Texture: {fileID: 2800000, guid: ba2b12a6926beed4db7a5773b8d2b2a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneBricksCustomFunction_fe5337189dc456998730ad626bfad0e5_Gradient8280_12:
+        m_Texture: {fileID: 2800000, guid: 0a51826d94e05514fa50fc223a9f2b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
