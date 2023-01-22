@@ -7,7 +7,10 @@ Also, because this repository is created before naming this package, the name of
 
 In order to install this package, git must be installed on your computer. So you can import packages via git in Unity.  
 To install this package, go to `Package Manager` in Unity. Then use `Add package from git URL...` under `+` icon. Paste this:  
-`https://github.com/Warwlock/blender-nodes-subgraph.git`
+`https://github.com/Warwlock/blender-nodes-subgraph.git`  
+  
+If you don't have git installed on your computer then clone this repository to your computer and use `Add package from disk...`.  
+Then locate your clonned repository folder and find `package.json` file.  
 
 ## Import Blender Add-On
 
