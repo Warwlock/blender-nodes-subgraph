@@ -1,12 +1,13 @@
 {
-	"name": "com.BlenderNodesGraph.core",
+	"name": "com.blendernodesgraph.core",
 	"displayName": "Blender Nodes Graph",
-	"version": "1.0",
+	"version": "1.0.0",
 	"unity": "2020.3",
 	"author": "Warwlock",
 	"description": "Core Utilities for Blender Nodes Graph",
 	"documentationUrl": "https://github.com/Warwlock/blender-nodes-subgraph/wiki",
 	"licensesUrl": "https://example.com/licensing.html",
+	"hideInEditor": "false",
 	"dependencies": {
 	},
 	"repository": {
@@ -28,6 +29,11 @@
             "displayName": "BuiltIn Samples",
             "description": "Contains samples for the Built In render pipeline",
             "path": "Samples~/SamplesBuiltIn"
+        },
+        {
+            "displayName": "Blender Add-on",
+            "description": "Contains Blender Add-on for exporting from Blender and importing to Unity",
+            "path": "Samples~/BlenderAddon"
         }
     ]
 }
