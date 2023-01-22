@@ -1,4 +1,4 @@
-#include <Packages/com.BlenderNodesGraph.core/Runtime/Editor/Includes/Importers.hlsl>
+#include <Packages/com.blendernodesgraph.core/Runtime/Editor/Includes/Importers.hlsl>
 
 void ExamplePreview_float(float3 _POS, float3 _PVS, float3 _PWS, float3 _NOS, float3 _NVS, float3 _NWS, float3 _NTS, float3 _TWS, float3 _BTWS, float3 _UV, float3 _SP, float3 _VVS, float3 _VWS, Texture2D curve_7934, out float4 ColorOut)
 {

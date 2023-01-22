@@ -193,7 +193,7 @@ namespace MaterialNodesGraph
             includeParagraph += "\nTEXTURE2D(_Empty_Texture);\n";
             includeParagraph += "#endif \n\n";*/
 
-            includeParagraph = "#include <Packages/com.BlenderNodesGraph.core/Editor/Includes/Importers.hlsl>\n";
+            includeParagraph = "#include <Packages/com.blendernodesgraph.core/Editor/Includes/Importers.hlsl>\n";
 
             for(int i = 0; i < nodes.Count(); i++)
             {
